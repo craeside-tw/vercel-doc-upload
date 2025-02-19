@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 247, 245, 243;
+  --background-end-rgb: 247, 245, 243;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+}
+
+.status-badge {
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+}
+
+.status-badge-processing {
+  background-color: #e6e6fa;
+  color: #4365a8;
+}
+
